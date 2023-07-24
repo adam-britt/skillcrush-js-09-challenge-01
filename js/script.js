@@ -20,6 +20,10 @@ const addGuestEvent = addGuestButton.addEventListener("click", function() {
         listItem.innerText = guest;
         guestList.append(listItem);
     }
+
+    const clearInput = addEventListener("", function() {
+        guestInput.innerText = "";
+    });
 });
 
 addGuestEvent();
